@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="BASECONTENT" schema="JXC_ADMIN"
+		class="com.jxc.entity.BaseContent">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="BASECOMPANY" schema="JXC_ADMIN"
+		class="com.jxc.entity.BaseCompany">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="BASECUSTOMERSUPPLIER" schema="JXC_ADMIN"
+		class="com.jxc.BaseCustomMersupplier">
+		<primary-key>
+			<generator class="assigned"></generator>
+		</primary-key>
+	</table>
+	<table name="BASEPARTS" schema="JXC_ADMIN"
+		class="com.jxc.entity.BaseParts">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+<table name="BASEPARTSCATEGORY" schema="JXC_ADMIN"
+	class="com.jxc.entity.BasePartsCategory">
+	<primary-key>
+		<generator class="native"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>
